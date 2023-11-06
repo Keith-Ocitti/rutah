@@ -17,7 +17,7 @@ body {
 .nav-list > li {
   text-decoration: none;
   color: black;
-  padding: 5px;
+  padding: 10px;
   padding-top: 10px;
   font-weight: 570;
 }
@@ -228,6 +228,27 @@ body {
 .eng-name > p {
   color: #03c0fd;
   font-weight: bold;
+}
+.phone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #2fd085;
+  /* border: 1px #03c0fd solid; */
+  border: none;
+  height: 35px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 8px;
+  padding-right: 5px;
+  font-size: 15px;
+  margin-left: -110px;
+}
+.nav-icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #2fd085;
+  font-size: 22px;
 }
 
 @media screen and (min-width: 1024px) {

@@ -5,7 +5,17 @@ import Image from "next/image";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faClose,
+  faMailBulk,
+  faMailForward,
+  faMessage,
+  faPhone,
+  faPhoneAlt,
+  faPhoneSquare,
+  faVoicemail,
+} from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";
 
 const Header = () => {
@@ -31,6 +41,11 @@ const Header = () => {
             onClick={() => router.push("/")}
             className="homeBtn"
           />
+        </button>
+        <button className="phone">
+          <FontAwesomeIcon icon={faPhoneSquare} className="nav-icon" />
+          0771644933
+          {/* <FontAwesomeIcon icon={faMessage} className="nav-icon" /> */}
         </button>
         <button onClick={toggle} className="sidebar-toggle-btn">
           {toggleSideBar ? (
