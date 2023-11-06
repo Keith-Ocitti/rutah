@@ -8,7 +8,7 @@ const GeneralServices = () => {
     <>
       <Header />
       <div>
-        <Image
+        {/* <Image
           src="/img1.jpg"
           width={500}
           height={280}
@@ -19,7 +19,20 @@ const GeneralServices = () => {
             marginTop: "20px",
           }}
           className="caro-img"
-        />
+        /> */}
+        <div
+          className="agr-con"
+          style={{
+            backgroundImage: `url("./img1.jpg")`,
+            // backgroundColor: "#a3e8ff",
+            backgroundSize: "cover",
+          }}
+        >
+          <div className="eng-name">
+            <h4>BUSINESS MANAGEMENT SERVICES</h4>
+            <p>Accelerate your business growth with us today.</p>
+          </div>
+        </div>
       </div>
       <div className="body-container">
         <CenterHeader heading="General services" />

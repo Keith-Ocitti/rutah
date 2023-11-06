@@ -35,6 +35,7 @@ const QonectVisuals = () => {
             width={200}
             height={280}
             alt="img1"
+            priority
             style={{
               objectFit: "fill",
               marginTop: "20px",
@@ -46,6 +47,7 @@ const QonectVisuals = () => {
             width={200}
             height={280}
             alt="img1"
+            priority
             style={{
               objectFit: "fill",
               marginTop: "20px",
@@ -57,6 +59,7 @@ const QonectVisuals = () => {
             width={200}
             height={280}
             alt="img1"
+            priority
             style={{
               objectFit: "fill",
               marginTop: "20px",
