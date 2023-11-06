@@ -21,6 +21,7 @@ const Agriculture = () => {
           width={500}
           height={280}
           alt="img1"
+          priority
           style={{
             height: "120px",
           }}

@@ -20,6 +20,7 @@ const QonectVisuals = () => {
           width={500}
           height={280}
           alt="img1"
+          priority
           style={{
             height: "120px",
           }}
@@ -71,6 +72,7 @@ const QonectVisuals = () => {
             height={890}
             className="larger-img"
             alt="sample"
+            priority
           />
           <div className="grid">
             <Image

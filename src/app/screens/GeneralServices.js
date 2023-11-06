@@ -13,6 +13,7 @@ const GeneralServices = () => {
           width={500}
           height={280}
           alt="img1"
+          priority
           style={{
             objectFit: "fill",
             marginTop: "20px",

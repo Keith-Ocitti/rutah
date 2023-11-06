@@ -29,6 +29,7 @@ const Engineering = () => {
             height={260}
             width={380}
             alt="content img"
+            priority
             style={{
               objectFit: "fill",
             }}
