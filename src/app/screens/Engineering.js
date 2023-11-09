@@ -3,26 +3,17 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import CenterHeader from "../components/centerHeader";
 import "../styles/main.css";
+import CarouselCom from "../components/Carousel";
 
 const Engineering = () => {
   return (
     <>
       <Header />
 
-      <div
-        className="qonect-logo-holder"
-        style={{
-          backgroundImage: `url("./cons3.jpg")`,
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="eng-name">
-          <h4>GREENEX AAA CONSULTANTS AND CONSTRUCTION</h4>
-          <p>Work with us for your dream constructions</p>
-        </div>
-      </div>
+      <CarouselCom />
       <br />
       <div className="body-container">
+        <CenterHeader heading={"Engineering and Construction Services"} />
         <div className="content-holder">
           <Image
             src={"/arch.jpg"}

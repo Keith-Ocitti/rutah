@@ -8,13 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faClose,
-  faMailBulk,
-  faMailForward,
-  faMessage,
-  faPhone,
-  faPhoneAlt,
   faPhoneSquare,
-  faVoicemail,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";
 
@@ -56,26 +50,26 @@ const Header = () => {
         </button>
         <div className="desktop-nav">
           <div className="desk-nav-list">
-            <p onClick={() => router.push("/General")}>General Services</p>
+            <p onClick={() => router.push("/")}>General Services</p>
             <p onClick={() => router.push("/Qonnect")}>IT & Graphics Design</p>
             <p onClick={() => router.push("/agriculture")}>Agriculture</p>
             <p onClick={() => router.push("/entertainment")}>Entertainment</p>
             <p onClick={() => router.push("/engineering")}>Engineering</p>
-            <p>Professionals</p>
+            <p onClick={() => router.push("/Professionals")}>Professionals</p>
           </div>
         </div>
       </div>
       {toggleSideBar ? (
         <div className="ul-div">
           <ul className="nav-list">
-            <li onClick={() => router.push("/General")}>General Services</li>
+            <li onClick={() => router.push("/")}>General Services</li>
             <li onClick={() => router.push("/Qonnect")}>
               IT & Graphics Design
             </li>
             <li onClick={() => router.push("/agriculture")}>Agriculture</li>
             <li onClick={() => router.push("/entertainment")}>Entertainment</li>
             <li onClick={() => router.push("/engineering")}>Engineering</li>
-            <li onClick={() => router.push("/engineering")}>Professionals</li>
+            <li onClick={() => router.push("/Professionals")}>Professionals</li>
           </ul>
         </div>
       ) : (

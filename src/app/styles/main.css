@@ -21,6 +21,7 @@ body {
   padding: 10px;
   padding-top: 10px;
   font-weight: 570;
+  list-style: none;
 }
 
 .nav-list > li:hover {
@@ -61,14 +62,14 @@ body {
 .headline-bar {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: -30px;
   margin-bottom: 10px;
   background-color: #03c0fd;
   padding: 5px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  /* display: none; */
+  padding-top: 15px;
 }
 .div1,
 .div2 {
@@ -243,7 +244,7 @@ body {
   border-radius: 8px;
   padding-right: 5px;
   font-size: 15px;
-  margin-left: -70px;
+  margin-left: -30px;
 }
 .nav-icon {
   padding-left: 5px;
@@ -251,8 +252,88 @@ body {
   color: #2fd085;
   font-size: 22px;
 }
+.carousel-cont {
+  height: 360px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.carousel-img > img {
+  height: 360px;
+}
+.legend {
+  background-color: white !important;
+  /* width: 300px !important; */
+  border-radius: 6px !important;
+  text-align: left !important;
+  color: black !important;
+  opacity: 0.7 !important;
+  /* margin-top: 10px !important; */
+}
+.legend > p {
+  display: none;
+}
+.contact-div {
+  background-color: white;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.contact-div > a > svg:hover {
+  color: #03c0fd;
+}
+.personal-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.person-card {
+  width: 195px;
+  box-shadow: 0px 3px 3px 0px rgb(176, 175, 175);
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 100%;
+}
+.person-info {
+  text-align: center;
+}
+.person-info > h4 {
+  padding-top: 5px;
+}
 
 @media screen and (min-width: 1024px) {
+  .person-card {
+    width: 230px;
+  }
+  .carousel-cont {
+    height: 550px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: green; */
+  }
+  .carousel-img > img {
+    height: 550px;
+  }
+  .legend {
+    background-color: white !important;
+    width: 300px !important;
+    border-radius: 0 !important;
+    text-align: left !important;
+    margin-left: 200px !important;
+    color: black !important;
+    margin-top: 10px !important;
+  }
+  .contact-div {
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+  }
+
   .list-con {
     padding: 20px;
   }

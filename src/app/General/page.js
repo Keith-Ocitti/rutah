@@ -1,5 +1,5 @@
-const { default: Header } = require("../components/header");
-const { default: GeneralServices } = require("../screens/GeneralServices");
+import Header from "../components/header";
+import GeneralServices from "../screens/GeneralServices";
 
 const GeneralPage = () => {
   return (

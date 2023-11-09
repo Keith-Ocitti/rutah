@@ -1,3 +1,4 @@
+import CarouselCom from "../components/Carousel";
 import CenterHeader from "../components/centerHeader";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -7,26 +8,9 @@ const QonectVisuals = () => {
   return (
     <>
       <Header />
+      <CarouselCom />
       <br />
-      <div
-        className="qonect-logo-holder"
-        style={{
-          backgroundImage: `url("./visuals.jpg")`,
-          backgroundSize: "cover",
-        }}
-      >
-        <Image
-          src="/QONNECT1.png"
-          width={500}
-          height={280}
-          alt="img1"
-          priority
-          style={{
-            height: "120px",
-          }}
-          className="q-img"
-        />
-      </div>
+
       <div className="body-container">
         <CenterHeader heading="Work with us" />
         <div className="service-con">

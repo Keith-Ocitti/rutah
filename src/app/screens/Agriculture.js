@@ -3,31 +3,14 @@ import Image from "next/image";
 import "../styles/main.css";
 import CenterHeader from "../components/centerHeader";
 import Footer from "../components/footer";
+import CarouselCom from "../components/Carousel";
 
 const Agriculture = () => {
   return (
     <>
       <Header />
-      <div
-        className="agr-con"
-        style={{
-          backgroundImage: `url("./fa6.jpg")`,
-          // backgroundColor: "#a3e8ff",
-          backgroundSize: "cover",
-        }}
-      >
-        <Image
-          src="/agr.png"
-          width={500}
-          height={280}
-          alt="img1"
-          priority
-          style={{
-            height: "120px",
-          }}
-          className="agr-img"
-        />
-      </div>
+      <CarouselCom />
+      <br />
       <div className="body-container">
         <CenterHeader heading="Training on Climate smart agriculture" />
         <div className="content-holder">

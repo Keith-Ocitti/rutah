@@ -2,27 +2,16 @@ import Header from "../components/header";
 import Image from "next/image";
 import Footer from "../components/footer";
 import CenterHeader from "../components/centerHeader";
+import CarouselCom from "../components/Carousel";
 
 const Entertainment = () => {
   return (
     <>
       <Header />
-      <div>
-        <Image
-          src="/ent.png"
-          width={500}
-          height={280}
-          alt="img1"
-          priority
-          style={{
-            objectFit: "fill",
-            marginTop: "20px",
-          }}
-          className="caro-img"
-        />
-      </div>
+      <CarouselCom />
       <br />
       <div className="body-container">
+        <CenterHeader heading={"Entertainment Services"} />
         <div className="content-holder">
           <Image
             src={"/brand.jpg"}
