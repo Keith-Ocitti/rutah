@@ -1,4 +1,5 @@
-const { default: Header } = require("../components/header");
+"use client";
+import Header from "../components/header";
 import Image from "next/image";
 import Footer from "../components/footer";
 import CenterHeader from "../components/centerHeader";

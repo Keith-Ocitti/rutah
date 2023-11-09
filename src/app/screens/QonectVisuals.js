@@ -1,3 +1,4 @@
+"use client";
 import CarouselCom from "../components/Carousel";
 import CenterHeader from "../components/centerHeader";
 import Footer from "../components/footer";

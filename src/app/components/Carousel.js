@@ -17,29 +17,29 @@ const CarouselCom = () => {
         autoFocus={true}
       >
         <div className="carousel-img">
-          <img src="/img1.jpg" />
+          <img src="/img1.jpg" alt="" />
           <Caption service="Business Management Services." />
         </div>
         <div className="carousel-img">
           {/* <div className="caption">
             <p>For all your bussiness needs</p>
           </div> */}
-          <img src="/visuals.jpg" />
+          <img src="/visuals.jpg" alt="" />
           <Caption service="IT & Graphics Design Services." />
         </div>
         <div className="carousel-img">
           {/* <div className="caption">
             <p>For all your bussiness needs</p>
           </div> */}
-          <img src="/fa1.jpg" />
+          <img src="/fa1.jpg" alt="" />
           <Caption service="Agricultural Services." />
         </div>
         <div className="carousel-img">
-          <img src="/cons2.jpg" />
+          <img src="/cons2.jpg" alt="" />
           <Caption service={"Engineering and Construction Services."} />
         </div>
         <div className="carousel-img">
-          <img src="/events.jpg" />
+          <img src="/events.jpg" alt="" />
           <Caption service="Entertainment Services" />
         </div>
       </Carousel>
