@@ -119,6 +119,7 @@ body {
   background-color: #d9d9d9;
   padding: 12px;
   margin-top: 10px;
+  color: black !important;
 }
 .caro-img {
   width: 100%;
