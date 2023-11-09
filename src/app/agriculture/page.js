@@ -3,7 +3,6 @@ import Agriculture from "../screens/Agriculture";
 const AgriculturePage = () => {
   return (
     <>
-      <Header />
       <Agriculture />
     </>
   );

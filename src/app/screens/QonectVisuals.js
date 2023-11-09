@@ -8,8 +8,6 @@ import Image from "next/image";
 const QonectVisuals = () => {
   return (
     <>
-      <Header />
-      <CarouselCom />
       <br />
 
       <div className="body-container">

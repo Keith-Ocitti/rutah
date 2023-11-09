@@ -4,7 +4,6 @@ const { default: Entertainment } = require("../screens/Entertainment");
 const EntertainmentPage = () => {
   return (
     <>
-      <Header />
       <Entertainment />
     </>
   );

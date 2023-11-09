@@ -9,8 +9,6 @@ import CarouselCom from "../components/Carousel";
 const GeneralServices = () => {
   return (
     <div>
-      <Header />
-      <CarouselCom />
       <br />
 
       <div className="body-container">

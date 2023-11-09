@@ -9,8 +9,6 @@ import Image from "next/image";
 const Professionals = () => {
   return (
     <>
-      <Header />
-      <CarouselCom />
       <br />
       <div className="body-container">
         <CenterHeader heading="Our Professionals" />

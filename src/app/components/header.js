@@ -62,14 +62,12 @@ const Header = () => {
       {toggleSideBar ? (
         <div className="ul-div">
           <ul className="nav-list">
-            <li onClick={() => router.push("/")}>General Services</li>
-            <li onClick={() => router.push("/Qonnect")}>
-              IT & Graphics Design
-            </li>
-            <li onClick={() => router.push("/agriculture")}>Agriculture</li>
-            <li onClick={() => router.push("/entertainment")}>Entertainment</li>
-            <li onClick={() => router.push("/engineering")}>Engineering</li>
-            <li onClick={() => router.push("/Professionals")}>Professionals</li>
+            <li onClick={() => Go("/")}>General Services</li>
+            <li onClick={() => Go("/Qonnect")}>IT & Graphics Design</li>
+            <li onClick={() => Go("/agriculture")}>Agriculture</li>
+            <li onClick={() => Go("/entertainment")}>Entertainment</li>
+            <li onClick={() => Go("/engineering")}>Engineering</li>
+            <li onClick={() => Go("/Professionals")}>Professionals</li>
           </ul>
         </div>
       ) : (

@@ -4,7 +4,6 @@ import GeneralServices from "../screens/GeneralServices";
 const GeneralPage = () => {
   return (
     <>
-      <Header />
       <GeneralServices />
     </>
   );
