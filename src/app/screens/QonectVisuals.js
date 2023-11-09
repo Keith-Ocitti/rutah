@@ -50,6 +50,7 @@ const QonectVisuals = () => {
             className="side-img"
           />
         </div>
+        <br />
         <CenterHeader heading="Sample Work" />
         <div className="sample-work">
           <Image
