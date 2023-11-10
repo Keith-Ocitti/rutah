@@ -103,22 +103,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseThree"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseThree"
               >
                 Farm Designing
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseThree"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -145,22 +145,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseFour"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseFour"
               >
                 Master Planning
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseFour"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingFour"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -188,22 +188,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseFive"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseFive"
               >
                 Special Furniture Designing
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseFive"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingFive"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -230,22 +230,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseSix"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseSix"
               >
                 Aquariums and Water Fountains Designing
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseSix"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingSix"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -272,22 +272,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseSeven"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseSeven"
               >
                 Interior Designing
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseSeven"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingSeven"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -315,22 +315,22 @@ const Engineering = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseEight"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseEight"
               >
                 Swimming pool Designing
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseEight"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingEight"
             >
               <div class="accordion-body">
                 <div className="content-holder">

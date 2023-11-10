@@ -150,22 +150,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseFour"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseFour"
                 >
                   Insurance Agency
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseFour"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingFour"
               >
                 <div class="accordion-body">
                   <div className="content-holder">
@@ -195,22 +195,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseFive"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseFive"
                 >
                   Property Consultancy
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseFive"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingFive"
               >
                 <div class="accordion-body">
                   <div className="content-holder">
@@ -237,22 +237,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSix">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseSix"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseSix"
                 >
                   Travel Documents
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseSix"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingSix"
               >
                 <div class="accordion-body">
                   <div className="content-holder">
@@ -282,22 +282,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseSeven"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseSeven"
                 >
                   TIN registration
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseSeven"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingSeven"
               >
                 <div class="accordion-body">
                   <div className="content-holder">
@@ -327,22 +327,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingEight">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseEight"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseEight"
                 >
                   URA returns and registration
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseEight"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingEight"
               >
                 <div class="accordion-body">
                   <div className="content-holder">
@@ -372,22 +372,22 @@ const GeneralServices = () => {
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2 class="accordion-header" id="panelsStayOpen-headingNine">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseNine"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseNine"
                 >
                   NSSF returns and registration
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseNine"
                 class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
+                aria-labelledby="panelsStayOpen-headingNine"
               >
                 <div class="accordion-body">
                   <div className="content-holder">

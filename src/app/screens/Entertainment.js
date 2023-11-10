@@ -104,22 +104,22 @@ const Entertainment = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseThree"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseThree"
               >
                 Events Management
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseThree"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
                 <div className="content-holder">

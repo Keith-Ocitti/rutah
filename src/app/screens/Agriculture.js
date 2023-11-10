@@ -113,17 +113,17 @@ const Agriculture = () => {
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseThree"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseThree"
               >
                 Production of Organic Nutrients
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseThree"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -159,22 +159,22 @@ const Agriculture = () => {
         <CenterHeader heading="Agronomy Services" />
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne"
+                data-bs-target="#panelsStayOpen-collapseFour"
                 aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne"
+                aria-controls="panelsStayOpen-collapseFour"
               >
                 Crop Production and Management
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseOne"
+              id="panelsStayOpen-collapseFour"
               class="accordion-collapse collapse show"
-              aria-labelledby="panelsStayOpen-headingOne"
+              aria-labelledby="panelsStayOpen-headingFour"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -205,22 +205,22 @@ const Agriculture = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseFive"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseFive"
               >
                 Construction of Greenhouses
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseFive"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingFive"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -250,22 +250,22 @@ const Agriculture = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseSix"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseSix"
               >
                 Nusery bed Management
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseSix"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingSix"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -295,22 +295,22 @@ const Agriculture = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseSeven"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseSeven"
               >
                 Irrigation system installation
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseSeven"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingSeven"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -346,22 +346,22 @@ const Agriculture = () => {
         <CenterHeader heading="Products" />
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
               <button
                 class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne"
+                data-bs-target="#panelsStayOpen-collapseEight"
                 aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne"
+                aria-controls="panelsStayOpen-collapseEight"
               >
                 Hydroponic Nutrients
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseOne"
+              id="panelsStayOpen-collapseEight"
               class="accordion-collapse collapse show"
-              aria-labelledby="panelsStayOpen-headingOne"
+              aria-labelledby="panelsStayOpen-headingEight"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -393,22 +393,22 @@ const Agriculture = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingNine">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseNine"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseNine"
               >
                 Barley seed and wheat seed
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseNine"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingNine"
             >
               <div class="accordion-body">
                 <div className="content-holder">
@@ -440,22 +440,22 @@ const Agriculture = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTen">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseTen"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseTen"
               >
                 Hydroponics Fodder production trays
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseTen"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingTen"
             >
               <div class="accordion-body">
                 <div className="content-holder">
