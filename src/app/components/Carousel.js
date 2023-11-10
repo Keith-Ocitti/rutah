@@ -16,7 +16,7 @@ const CarouselCom = () => {
       >
         <div className="carousel-img">
           <img src="/img1.jpg" alt="" />
-          <Caption service="Business Management Services." />
+          <Caption service="Business Management Support Services." />
         </div>
         <div className="carousel-img">
           {/* <div className="caption">
