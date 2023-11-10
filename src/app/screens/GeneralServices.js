@@ -141,7 +141,7 @@ const GeneralServices = () => {
                         or businesses.
                       </p>
                       <p>
-                        Providing strategies to minimize tax h4abih4ties and
+                        Providing strategies to minimize tax liabilities and
                         maximize returns.
                       </p>
                     </div>
@@ -269,8 +269,8 @@ const GeneralServices = () => {
                     <div className="body-text">
                       <h4>Travel Documents</h4>
                       <p>
-                        Facih4tating the apph4cation or renewal of
-                        travel-related documents h4ke passports or visas.
+                        Facilitating the application or renewal of
+                        travel-related documents like passports or visas.
                       </p>
                       <p>
                         Assisting in obtaining necessary paperwork for travel
@@ -363,7 +363,7 @@ const GeneralServices = () => {
                         Revenue Authority (URA).
                       </p>
                       <p>
-                        Managing and fih4ng tax returns in comph4ance with URA
+                        Managing and filing tax returns in compliance with URA
                         regulations.
                       </p>
                     </div>
@@ -404,7 +404,7 @@ const GeneralServices = () => {
                     <div className="body-text">
                       <h4>NSSF returns and registration</h4>
                       <p>
-                        Handh4ng registration processes for the National Social
+                        Handling registration processes for the National Social
                         Security Fund (NSSF) in Uganda.
                       </p>
                       <p>
