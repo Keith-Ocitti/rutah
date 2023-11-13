@@ -408,7 +408,7 @@ const GeneralServices = () => {
                         Security Fund (NSSF) in Uganda.
                       </p>
                       <p>
-                        Managing and fih4ng returns related to NSSF for
+                        Managing and filling returns related to NSSF for
                         businesses.
                       </p>
                     </div>

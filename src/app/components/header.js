@@ -23,6 +23,9 @@ const Header = () => {
     router.push(`${destination}`);
     setToggleSlideBar((prev) => !prev);
   };
+  const styles = {
+    backgroundColor: "red",
+  };
   return (
     <div className="header-container">
       <div className="logo-holder">
@@ -50,7 +53,13 @@ const Header = () => {
         </button>
         <div className="desktop-nav">
           <div className="desk-nav-list">
-            <p onClick={() => router.push("/")}>General Services</p>
+            <p
+              onClick={() => {
+                router.push("/");
+              }}
+            >
+              General Services
+            </p>
             <p onClick={() => router.push("/Qonnect")}>IT & Graphics Design</p>
             <p onClick={() => router.push("/agriculture")}>Agriculture</p>
             <p onClick={() => router.push("/entertainment")}>Entertainment</p>
