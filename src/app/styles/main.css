@@ -66,7 +66,7 @@ body {
   margin-bottom: 10px;
   background-color: #03c0fd;
   padding: 5px;
-  width: 100%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
@@ -303,7 +303,18 @@ body {
 .person-info > h4 {
   padding-top: 5px;
 }
-
+.join-us {
+  display: none;
+}
+.prof-join {
+  display: block;
+  background-color: #03c0fd;
+  border: 1px white solid;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 7px;
+}
 @media screen and (min-width: 1024px) {
   .person-card {
     width: 230px;
@@ -360,6 +371,9 @@ body {
   .desk-nav-list > p:hover {
     color: #03c0fd;
     cursor: pointer;
+  }
+  .active {
+    color: #03c0fd;
   }
 
   .headline-bar {
@@ -506,6 +520,37 @@ body {
   .eng-name > p {
     color: #03c0fd;
     font-weight: bold;
+  }
+  .join-us {
+    display: block;
+    width: 220px;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    box-shadow: 0px 6px 36px 0px rgba(0, 0, 0, 0.25);
+  }
+  .join-us > p {
+    font-weight: 500;
+    color: #03c0fd;
+  }
+  .join-us-btn {
+    border: 2px #03c0fd solid;
+    padding: 3px;
+    background-color: #03c0fd;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  .join-us-btn:hover {
+    background-color: white;
+    color: #03c0fd;
+  }
+  .prof-join {
+    display: none;
   }
 
   .footer {

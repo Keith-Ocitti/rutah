@@ -11,7 +11,7 @@ const Professionals = () => {
     <>
       <br />
       <div className="body-container">
-        <CenterHeader heading="Our Professionals" />
+        <CenterHeader heading="Our Professionals" join={true} />
         <div className="personal-container">
           <div className="person-card">
             <div className="person-img">
@@ -142,6 +142,12 @@ const Professionals = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="join-us">
+        <p>Want to join the team?</p>
+        <a href="https://forms.gle/SSvnFH7kv3MVv8WK6" target="_blank">
+          <button className="join-us-btn"> Join Us</button>
+        </a>
       </div>
       <Footer />
     </>

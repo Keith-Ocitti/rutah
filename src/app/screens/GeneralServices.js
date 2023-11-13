@@ -419,6 +419,12 @@ const GeneralServices = () => {
           </div>
         </div>
       </div>
+      <div className="join-us">
+        <p>Want to join the team?</p>
+        <a href="https://forms.gle/SSvnFH7kv3MVv8WK6" target="_blank">
+          <button className="join-us-btn"> Join Us</button>
+        </a>
+      </div>
       <Footer />
     </div>
   );
