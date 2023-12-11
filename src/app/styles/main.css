@@ -304,6 +304,9 @@ body {
   padding-top: 5px;
   color: #03c0fd;
 }
+.person-info > h5 {
+  color: black;
+}
 .join-us {
   display: none;
 }
