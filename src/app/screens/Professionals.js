@@ -107,7 +107,7 @@ const Professionals = () => {
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/Dennis.png"}
+                src={"/Denis.png"}
                 alt="placeholder"
                 height={200}
                 width={250}
