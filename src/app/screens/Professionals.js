@@ -16,7 +16,7 @@ const Professionals = () => {
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/rutah.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -24,15 +24,15 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Uwizeye Seth Rutah</h4>
+              <h5>Agriculturalist</h5>
+              <h6>Team Leader</h6>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/onard.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -40,15 +40,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Ainebyona Onard</h4>
+              <h5>Creative Designer</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/Katushabe.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -56,15 +55,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Katushabe Racheal</h4>
+              <h5>Plant Doctor</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/anold.png"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -72,15 +70,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Atukwase Anold</h4>
+              <h5>Digital Tech Support</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/scovia.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -88,15 +85,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Komugisa Scovia</h4>
+              <h5>Field Mentor</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/rodgers.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -104,15 +100,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Ainembabazi Rodgers</h4>
+              <h5>Agri Business Mentor</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/Dennis.png"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -120,15 +115,14 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Arinaitwe Dennis</h4>
+              <h5>Business Coach</h5>
             </div>
           </div>
           <div className="person-card">
             <div className="person-img">
               <Image
-                src={"/placeholder.webp"}
+                src={"/didas.jpg"}
                 alt="placeholder"
                 height={200}
                 width={250}
@@ -136,9 +130,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Name</h4>
-              <h6>Field of expertise</h6>
-              <h6>Years of experience</h6>
+              <h4>Turinamwe Didas</h4>
+              <h5>Electrical Engineer</h5>
             </div>
           </div>
         </div>

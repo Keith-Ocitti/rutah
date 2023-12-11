@@ -6,10 +6,6 @@ const Footer = () => {
         <p>First floor Room 310, Markhasingh Street</p>
         <p>Mbarara City rutahhub@gmail.com</p>
       </div>
-      <div>
-        <p>Website developed by Softworld Inc.</p>
-        <p>Email:keithocitti@gmail.com</p>
-      </div>
     </div>
   );
 };
