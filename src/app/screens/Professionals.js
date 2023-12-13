@@ -47,6 +47,21 @@ const Professionals = () => {
           <div className="person-card">
             <div className="person-img">
               <Image
+                src={"/joan.jpg"}
+                alt="placeholder"
+                height={200}
+                width={250}
+                className="profile-img"
+              />
+            </div>
+            <div className="person-info">
+              <h4>Joan Atukunda</h4>
+              <h5>Graphics Designer</h5>
+            </div>
+          </div>
+          <div className="person-card">
+            <div className="person-img">
+              <Image
                 src={"/katushabe.jpg"}
                 alt="placeholder"
                 height={200}
