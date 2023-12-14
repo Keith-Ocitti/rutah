@@ -55,8 +55,8 @@ const Header = () => {
           />
         </button>
         <button className="phone">
-          <FontAwesomeIcon icon={faPhoneSquare} className="nav-icon" />
-          0771644933
+          {/* <FontAwesomeIcon icon={faPhoneSquare} className="nav-icon" /> */}
+          {/* 0771644933 */}
           {/* <FontAwesomeIcon icon={faMessage} className="nav-icon" /> */}
         </button>
         <button onClick={toggle} className="sidebar-toggle-btn">

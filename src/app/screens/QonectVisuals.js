@@ -51,7 +51,12 @@ const QonectVisuals = () => {
           />
         </div>
         <br />
-        <CenterHeader heading="Sample Work" />
+        <div className="sample-work-header">
+          <CenterHeader heading="Our Sample Work" />
+        </div>
+        <div className="sample-mobile">
+          <h5>Our Sample Work</h5>
+        </div>
         <div className="sample-work">
           <Image
             src="/delta flyer.png"

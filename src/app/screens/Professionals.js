@@ -24,9 +24,12 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Uwizeye Seth Rutah</h4>
-              <h5>Agriculturalist</h5>
-              <h6>Team Leader</h6>
+              <h5>Uwizeye Seth Rutah</h5>
+              <div className="tag-cover">
+                <button className="tag">Agriculturalist</button>
+                <br />
+                <button className="tag">Team Leader</button>
+              </div>
             </div>
           </div>
           <div className="person-card">
@@ -40,8 +43,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Ainebyona Onard</h4>
-              <h5>Creative Designer</h5>
+              <h5>Ainebyona Onard</h5>
+              <button className="tag">Creative Designer</button>
             </div>
           </div>
           <div className="person-card">
@@ -55,8 +58,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Joan Atukunda</h4>
-              <h5>Graphics Designer</h5>
+              <h5>Joan Atukunda</h5>
+              <button className="tag">Graphics Designer</button>
             </div>
           </div>
           <div className="person-card">
@@ -70,8 +73,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Katushabe Racheal</h4>
-              <h5>Plant Doctor</h5>
+              <h5>Katushabe Racheal</h5>
+              <button className="tag">Plant Doctor</button>
             </div>
           </div>
           <div className="person-card">
@@ -85,8 +88,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Atukwase Anold</h4>
-              <h5>Digital Tech Support</h5>
+              <h5>Atukwase Anold</h5>
+              <button className="tag">Digital Tech Support</button>
             </div>
           </div>
           <div className="person-card">
@@ -100,8 +103,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Komugisa Scovia</h4>
-              <h5>Field Mentor</h5>
+              <h5>Komugisa Scovia</h5>
+              <button className="tag">Field Mentor</button>
             </div>
           </div>
           <div className="person-card">
@@ -115,8 +118,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Ainembabazi Rodgers</h4>
-              <h5>Agri Business Mentor</h5>
+              <h5>Ainembabazi Rodgers</h5>
+              <button className="tag">Agri-Business Mentor</button>
             </div>
           </div>
           <div className="person-card">
@@ -130,8 +133,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Arinaitwe Dennis</h4>
-              <h5>Business Coach</h5>
+              <h5>Arinaitwe Dennis</h5>
+              <button className="tag">Business Coach</button>
             </div>
           </div>
           <div className="person-card">
@@ -145,8 +148,8 @@ const Professionals = () => {
               />
             </div>
             <div className="person-info">
-              <h4>Turinamwe Didas</h4>
-              <h5>Electrical Engineer</h5>
+              <h5>Turinamwe Didas</h5>
+              <button className="tag">Electrical Engineer</button>
             </div>
           </div>
         </div>

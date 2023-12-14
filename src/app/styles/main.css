@@ -20,6 +20,10 @@ button.accordion-button:focus {
   box-shadow: none;
   outline: none;
 }
+button.accordion-button {
+  background-color: white !important;
+  font-weight: bold;
+}
 .nav-list > li {
   text-decoration: none;
   color: black;
@@ -30,7 +34,7 @@ button.accordion-button:focus {
 }
 
 .nav-list > li:hover {
-  color: #03c0fd;
+  color: #012e6b;
   cursor: pointer;
 }
 .logo-holder {
@@ -58,7 +62,8 @@ button.accordion-button:focus {
   padding-right: 15px;
 }
 .toggle-icon {
-  color: #03c0fd;
+  /* color: #012e6b; */
+  color: #012e6b;
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
@@ -69,7 +74,8 @@ button.accordion-button:focus {
   justify-content: space-between;
   margin-top: -30px;
   margin-bottom: 10px;
-  background-color: #03c0fd;
+  /* background-color: #012e6b; */
+  background-color: #012e6b;
   padding: 5px;
   width: 98%;
   margin-left: auto;
@@ -80,7 +86,7 @@ button.accordion-button:focus {
 .div2 {
   width: 430px;
   height: 1px;
-  background-color: #03c0fd;
+  background-color: #012e6b;
   margin-top: 8px;
   display: none;
 }
@@ -92,7 +98,7 @@ button.accordion-button:focus {
   font-size: 20px;
 }
 .body-text > h4 {
-  color: #03c0fd;
+  color: #012e6b;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -102,7 +108,7 @@ button.accordion-button:focus {
 }
 
 .service-title {
-  color: #03c0fd;
+  color: #012e6b;
   font-weight: 580;
   font-weight: bold;
   padding: 12px;
@@ -118,7 +124,7 @@ button.accordion-button:focus {
   height: 3px;
   width: 100%;
   margin-bottom: 5px;
-  background-color: #03c0fd;
+  background-color: #012e6b;
 }
 .footer {
   background-color: #d9d9d9;
@@ -172,14 +178,14 @@ button.accordion-button:focus {
   padding: 20px;
 }
 .gen-service > ul > li {
-  color: #03c0fd;
+  color: #012e6b;
   padding-top: 10px;
   font-weight: bold;
 }
 .list-con {
   /* background-color: red; */
   /* padding: 10px; */
-  border: 1px #03c0fd solid;
+  border: 1px #012e6b solid;
   margin-bottom: 15px;
   border-radius: 5px;
 }
@@ -187,7 +193,7 @@ button.accordion-button:focus {
   padding: 5px;
 }
 .card-head {
-  background-color: #03c0fd;
+  background-color: #012e6b;
   padding: 5px;
   list-style: none;
   color: white;
@@ -234,7 +240,7 @@ button.accordion-button:focus {
   color: navy;
 }
 .eng-name > p {
-  color: #03c0fd;
+  color: #012e6b;
   font-weight: bold;
 }
 .phone {
@@ -242,7 +248,7 @@ button.accordion-button:focus {
   justify-content: space-around;
   align-items: center;
   color: #2fd085;
-  /* border: 1px #03c0fd solid; */
+  /* border: 1px #012e6b solid; */
   border: none;
   height: 35px;
   margin-top: 15px;
@@ -286,7 +292,7 @@ button.accordion-button:focus {
   width: 300px;
 }
 .contact-div > a > svg:hover {
-  color: #03c0fd;
+  color: #012e6b;
 }
 .personal-container {
   display: flex;
@@ -298,16 +304,23 @@ button.accordion-button:focus {
   width: 48%;
   box-shadow: 0px 3px 3px 0px rgb(176, 175, 175);
   margin-bottom: 20px;
+  height: 350px;
 }
 .profile-img {
   width: 100%;
 }
 .person-info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  /* background-color: red; */
 }
 .person-info > h4 {
   padding-top: 5px;
-  color: #03c0fd;
+  color: #012e6b;
 }
 .person-info > h6 {
   color: black;
@@ -315,22 +328,55 @@ button.accordion-button:focus {
 .person-info > h5 {
   color: black;
 }
+.tag-cover {
+  width: 100%;
+}
+.tag {
+  border: none;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: #012e6b;
+  width: 93%;
+  margin: 3px;
+}
+
 .join-us {
   display: none;
 }
+
+.sample-work-header {
+  display: none;
+  margin-top: 20px;
+}
+
+.sample-mobile {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  background-color: #012e6b;
+  padding: 10px;
+}
+.sample-mobile > h5 {
+  font-weight: bold;
+}
+
 .prof-join {
   display: block;
-  background-color: #03c0fd;
-  border: 1px white solid;
+  background-color: #012e6b;
+  border: 2px white solid;
   border-radius: 3px;
   padding-left: 5px;
   padding-right: 5px;
   margin-bottom: 7px;
   color: white;
 }
+
 @media screen and (min-width: 1024px) {
   .person-card {
     width: 230px;
+  }
+  .sample-mobile {
+    display: none;
   }
   .carousel-cont {
     height: 550px;
@@ -382,11 +428,14 @@ button.accordion-button:focus {
     font-weight: 500;
   }
   .desk-nav-list > p:hover {
-    color: #03c0fd;
+    color: #012e6b;
     cursor: pointer;
   }
   .active {
-    color: #03c0fd;
+    color: #2fd085;
+  }
+  .sample-work-header {
+    display: block;
   }
 
   .headline-bar {
@@ -396,7 +445,7 @@ button.accordion-button:focus {
   }
   .headline-bar > p {
     text-align: center;
-    color: #03c0fd;
+    color: #012e6b;
     padding-left: 0;
     font-size: 18px;
   }
@@ -434,7 +483,7 @@ button.accordion-button:focus {
   }
 
   .body-text > h4 {
-    color: #03c0fd;
+    color: #012e6b;
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -531,7 +580,7 @@ button.accordion-button:focus {
     color: navy;
   }
   .eng-name > p {
-    color: #03c0fd;
+    color: #012e6b;
     font-weight: bold;
   }
   .join-us {
@@ -547,12 +596,12 @@ button.accordion-button:focus {
   }
   .join-us > p {
     font-weight: 500;
-    color: #03c0fd;
+    color: #012e6b;
   }
   .join-us-btn {
-    border: 2px #03c0fd solid;
+    border: 2px #012e6b solid;
     padding: 3px;
-    background-color: #03c0fd;
+    background-color: #012e6b;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -561,7 +610,7 @@ button.accordion-button:focus {
   }
   .join-us-btn:hover {
     background-color: white;
-    color: #03c0fd;
+    color: #012e6b;
   }
   .prof-join {
     display: none;
